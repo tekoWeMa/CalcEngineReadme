@@ -74,7 +74,7 @@ Dies können wir mit den Folgenden Commands:
 
 Als nächstes installieren wir Docker, dafür folgen wir der Docker-Dokumentation:
 
-\```
+```
 
 \# Add Docker's official GPG key:
 
@@ -94,11 +94,11 @@ sudo chmod a+r /etc/apt/keyrings/docker.asc
 
 echo \
 
-`  `"deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/debian \
+"deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/debian \
 
-`  `$(. /etc/os-release && echo "$VERSION\_CODENAME") stable" | \
+$(. /etc/os-release && echo "$VERSION\_CODENAME") stable" | \
 
-`  `sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 
 sudo apt-get update
 
@@ -106,7 +106,7 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 
 y
 
-\```
+```
 
 Mit dem Testcommand können wir die Docker-installation testen:
 
