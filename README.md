@@ -44,7 +44,7 @@ Wenn wir die SD Karte beschrieben haben, können wir via SSH zum raspi connecten
 ![](Aspose.Words.1aedfa8d-cbb5-4240-995e-7ff9af560c8e.005.png)
 
 Nun gibt es 2 Möglichkeiten: entweden kann alles über unser erstellet Script Installiert werden (erfordert cleane Raspberr PI Installation) oder es kann der manuellen Installation gefolgt werden.
-## Installation mit Script
+## Option 1: Installation mit Script
 ```wget https://gist.githubusercontent.com/tekoWeMa/e0a87d1d7929a10232e1fdf071a7ad3b/raw/0d88cfb881b1536a34f31d3d5253f792a6ddb133/install.sh ```
 
 ```chmod +x install.sh```
@@ -61,7 +61,7 @@ Nach der Installation um auszuführen:
 
 ```make```
 
-## Manuelle Installation
+## Option 2: Manuelle Installation
 Nach dem Login führen wir wie immer ein ```sudo apt update``` und  ```sudo apt upgrade -y``` aus.
 
 Als nächster Schritt installieren wir GIT und makefile.
