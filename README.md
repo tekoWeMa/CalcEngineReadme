@@ -2,7 +2,7 @@
 
 ## Übersicht Projekt
 ### Überblick
-Die CalcEngine ist ein System zur Berechnung von Fibonacci-Zahlen. Es verwendet eine API für die Eingabe, leitet Anfragen über einen RPC Client an eine Message Queue und nutzt Worker für die Berechnung.
+Die CalcEngine ist ein System zur Berechnung von Fibonacci-Zahlen. Sie verwendet eine API für die Eingabe, leitet Anfragen über einen RPC Client an eine Message Queue und nutzt einen Worker für die Berechnung.
 
 ### Komponenten
 API: Ermöglicht die Eingabe von Zahlen für die Berechnung.
@@ -33,17 +33,17 @@ Mit dem Raspberry PI Imager installieren wir die Lite version des 64-BIT raspber
 
 ![](Aspose.Words.1aedfa8d-cbb5-4240-995e-7ff9af560c8e.003.png)
 
-Im nächsten Schritt setzen wir die notwendigen Einstellungen und schreiben dann die SD Karte:
+Im nächsten Schritt setzen wir die notwendigen Einstellungen und beschreiben dann die SD Karte:
 
 
 ![](Aspose.Words.1aedfa8d-cbb5-4240-995e-7ff9af560c8e.004.png)
 ### Installationen auf dem Raspberry PI:
 
-Wenn wir die SD Karte beschrieben haben, können wir via SSH zum raspi connecten und installationen vornehmen, die wir benötigen. In unserem Beispiel verwenden wir Putty:
+Wenn wir die SD Karte beschrieben haben, können wir via SSH zum raspi connecten und die installationen vornehmen, die wir benötigen. In unserem Beispiel verwenden wir Putty:
 
 ![](Aspose.Words.1aedfa8d-cbb5-4240-995e-7ff9af560c8e.005.png)
 
-Nun gibt es 2 Möglichkeiten: entweden kann alles über unser erstellet Script Installiert werden (erfordert cleane Raspberr PI Installation) oder es kann der manuellen Installation gefolgt werden.
+Nun gibt es 2 Möglichkeiten: entweder kann alles über unser erstelles Script Installiert werden (erfordert cleane Raspberr PI Installation) oder es kann der manuellen Installation gefolgt werden.
 ## Option 1: Installation mit Script
 ```wget https://gist.githubusercontent.com/tekoWeMa/e0a87d1d7929a10232e1fdf071a7ad3b/raw/0d88cfb881b1536a34f31d3d5253f792a6ddb133/install.sh ```
 
