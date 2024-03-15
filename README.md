@@ -112,7 +112,7 @@ Mit dem Testcommand können wir die Docker-installation testen:
 
 ```sudo docker run hello-world```
 
-Als nächstes klonen wir das Repo. Dafür müssen wir im GIT den public SSH key anlagen: 
+Als nächstes klonen wir das Repo. Dafür müssen wir im GIT den public SSH key anlegen: 
 
 ```ssh-keygen```
 
