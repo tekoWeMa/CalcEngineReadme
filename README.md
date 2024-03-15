@@ -116,7 +116,7 @@ Als nächstes klonen wir das Repo. Dafür müssen wir im GIT den public SSH key 
 
 ```ssh-keygen```
 
-```cat .ssh/id\_rsa.pub``` - Mit dit diesem Command können wir den Key auslesen, dass wir das Raspi hinterlegen können im GIT. (@Thomas: Wir benötigen diesen Key, dass wir dich hinterlegen können, dass du das Repo klonen kannst)
+```cat ~/.ssh/id_rsa.pub``` - Mit dit diesem Command können wir den Key auslesen, dass wir das Raspi hinterlegen können im GIT. (@Thomas: Wir benötigen diesen Key, dass wir dich hinterlegen können, dass du das Repo klonen kannst)
 
 ``` git clone git@github.com:sirh3e/csgo-teko-docker.git ```
 
