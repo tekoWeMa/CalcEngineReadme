@@ -45,7 +45,7 @@ Wenn wir die SD Karte beschrieben haben, können wir via SSH zum raspi connecten
 
 Nun gibt es 2 Möglichkeiten: entweder kann alles über unser erstelles Script Installiert werden (erfordert cleane Raspberr PI Installation) oder es kann der manuellen Installation gefolgt werden.
 ## Option 1: Installation mit Script
-```wget https://gist.githubusercontent.com/tekoWeMa/e0a87d1d7929a10232e1fdf071a7ad3b/raw/0d88cfb881b1536a34f31d3d5253f792a6ddb133/install.sh ```
+```wget https://gist.githubusercontent.com/tekoWeMa/e0a87d1d7929a10232e1fdf071a7ad3b/raw/9dc0902954eb08bf395df3faa3b089468a33eff9/install.sh ```
 
 ```chmod +x install.sh```
 
